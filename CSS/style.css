@@ -1,17 +1,17 @@
 @font-face {
     font-family: "Logo";
-    src: url(/Fonts/Fontspring-DEMO-blue_vinyl_regular_ps_ot.otf);
+    src: url('/Fonts/Instagram.ttf');
 }
 @font-face {
-    font-family: "Roboto";
-    src: url(/Fonts/Roboto-Regular.ttf);
+    font-family: Roboto;
+    src: url(Fonts/Roboto-Regular.ttf);
 }
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* scrollbar-width: none; */
+    scrollbar-width: none;
 }
 body, html {
     height: 100%;
@@ -327,7 +327,7 @@ body, html {
 }
 .post-profile img{
     position: absolute;
-    border: 2px solid red;
+    border: 2px solid #f09433;
     border-radius: 50%;
     top: 0;
     left: 0;
@@ -454,7 +454,7 @@ body, html {
 }
 .profile-img img{
     position: absolute;
-    border: 2px solid red;
+    border: 2px solid #f09433;
     border-radius: 50%;
     top: 0;
     left: 0;
@@ -526,7 +526,7 @@ body, html {
 }
 .profile-img img{
     position: absolute;
-    border: 2px solid red;
+    border: 2px solid #f09433;
     border-radius: 50%;
     top: 0;
     left: 0;
@@ -617,7 +617,7 @@ body, html {
     .section3 {
         width: 42%;
     }
-    span {
+    .sidebar-items span {
         display: none;
     }
     .logo-search {
