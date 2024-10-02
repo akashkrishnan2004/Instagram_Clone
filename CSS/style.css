@@ -410,6 +410,7 @@ body, html {
     height: 25rem;
     width: 25rem;
     object-fit: cover;
+    
 }
 .button-section {
     display: flex;
@@ -469,6 +470,11 @@ body, html {
     color: white;
     border: none;
     width: 100%;
+}
+input[type="text"]:focus {
+    outline: none;
+    border: none;
+    /* box-shadow: none; */
 }
 .horizontal-hr {
     border: .5px solid rgb(168, 163, 163);
