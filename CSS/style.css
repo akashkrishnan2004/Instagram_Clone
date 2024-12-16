@@ -470,6 +470,11 @@ body, html {
     border: none;
     width: 100%;
 }
+input[type="text"]:focus {
+    outline: none;
+    border: none;
+    /* box-shadow: none; */
+}
 .horizontal-hr {
     border: .5px solid rgb(168, 163, 163);
     width: 100%;
